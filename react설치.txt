@@ -1,0 +1,48 @@
+yarn 설치
+설명 사이트 : https://yarnpkg.com/en/docs/install#windows-stable
+
+cmd창에서 npm install --global yarn 입력하면 설치됨
+
+yarn --version 으로 버전 확인하고ㅗ
+
+# 리액트 앱 패키지 다운
+npm install -g create-react-app 입력하면 다운로드 됨
+
+
+# 리액트 프로젝트 생성
+일단 reactwork 폴더로 이동
+- cd reactwork폴더 위치시키고
+
+순서대로 입력해
+create-react-app react-first :프로젝트 생성
+cd react-first   : 프로젝트 폴더로 이동
+yarn start 또는 npm start : 프로젝트 실행
+
+창뜨면 성공
+
+///////////////////////////////////////////////////////////////////////
+리액트 설치 (공식사이트 : https://reactjs.org/)
+ 
+React 는 UI 컴포넌트 라이브러리이다
+장점
+1. 단순한 앱개발 :React 는 순수 자바스크립트로 만든 컴포넌트 기반
+            	아키텍쳐이다
+2. 빠른 UI : 가상 DOM 제공
+3. 코드량 감소 : React 커뮤니티와 개발 생태계를 통해 수많은 라이브러리와
+              	컴포넌트를 접할수있다
+ 
+단점 :
+     	1. 리액트는 단방향 데이타 바인딩만 제공한다
+     	2. 리액트는 다른 프레임워크처럼 성숙하지 않다
+     	3. 리액트는 모든 기능을 갖춘 프레임워크는 아니다
+              	여러 라이브러리를 같이 사용해야만 한다
+
+
+Hooks 는 리액트 v16.8 에 새로 도입된 기능(2019년 12월)
+함수형 컴포넌트에서는 원래 상태관리가 불가능(state)했었는데 
+가능하도록 하는 useState 기능이 추가되었다
+
+///////////////////////////////////////////////////////////////////
+
+https://mui.com/material-ui/react-image-list/
+- 이미지 크기 다르게 출력하는 코드있음

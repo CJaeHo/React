@@ -1,0 +1,22 @@
+.number{
+  font-size: 60px;
+  color: red;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  text-shadow: 5px 5px 5px gray;
+  font-family: 'Open Sans';
+}
+
+.photo{
+  position: absolute;
+  left: 500px;
+  top: 250px;
+}
+
+.greenline{
+  border-color: green;
+  border-width: 10px;
+  margin-left: 30px;
+  padding: 10px 10px 10px 10px;
+}
