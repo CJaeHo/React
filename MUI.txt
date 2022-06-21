@@ -4,7 +4,4 @@ yarn add @mui/material @mui/styled-engine-sc styled-components
 
 yarn add @mui/icons-material
 
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>

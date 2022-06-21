@@ -82,7 +82,7 @@ const SevenApp = () => {
                 </thead>
                 <tbody>
                     {
-                       board.map((row,index)=>(<RowItemApp row={row} key={index} i={index} removeList={removeList}/>))
+                       board.map((row,index)=>(<RowItemApp row={row} key={index} idx={index} removeList={removeList}/>))
                     }
                 </tbody>
             </table>

@@ -12,7 +12,7 @@ import NineApp from './components/NineApp';
 
 
 function App() {
-    const [idx, setIdx] = useState(7);
+    const [idx, setIdx] = useState(8);
 
     const selectComponents = (e) => {
       console.log(e.target.value);
@@ -46,11 +46,11 @@ function App() {
             onClick={selectComponents}/>SixApp
         </label>
         <label>
-          <input type='radio' name='comp' defaultValue='7' defaultChecked
+          <input type='radio' name='comp' defaultValue='7'
             onClick={selectComponents}/>SevenApp
         </label>
         <label>
-          <input type='radio' name='comp' defaultValue='8'
+          <input type='radio' name='comp' defaultValue='8' defaultChecked
             onClick={selectComponents}/>EightApp
         </label>
         <label>

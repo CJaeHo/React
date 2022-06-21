@@ -1,0 +1,139 @@
+* {
+  font-family: 'Dongle';
+}
+
+div.bg{
+  background: linear-gradient(#fafad2,#e6e6fa);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 1300px;
+}
+
+div{  
+  border: 0px solid gray;
+}
+
+div.title{
+  text-align: center;
+}
+
+div.menu{
+  position: absolute;
+  top: 160px;
+  left: 100px;
+  width: 800px;
+  height: 100px;
+}
+
+div.info{
+  position: absolute;
+  top: 280px;
+  left: 20px;
+  width: 250px;
+  height: 300px;
+  font-size: 2em;
+}
+
+div.main{
+  position: absolute;
+  top: 270px;
+  left: 300px;
+  width: 800px;
+  height: 500px;
+}
+
+.menu li{
+  list-style: none;
+  font-size: 22px;
+  float: left;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  border: 2px solid gray;
+  margin-right: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
+  margin-bottom: 10px;
+}
+
+.main img{
+  border: 2px solid gray;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px gray;
+  margin-right: 5px;
+  width: 150px;
+  height: 190px;
+}
+
+.menu li *{
+  color: gray;
+}
+.menu li *:hover{
+  color: black;
+}
+
+img.small{
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  margin-right: 10px;
+}
+
+.ShopDe{
+  width: 500px;
+  height: 360px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.ShopDe .img_box img{
+  width: 280px;
+  height: 280px;
+}
+
+.ShopDe .aaa{
+  width: 150px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.detailbtn button{
+  margin-right: 10px;
+  width: 100px;
+  font-size: 1.5em;
+}
+
+/* Memo Part */
+div .memo_nickbox input{
+  width: 100px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+div .memo_messagebox input{
+  width: 300px;
+  height: 30px;
+}
+
+div.a{
+  margin-right: 30px;
+}
+
+div .spanBtn{
+  position: relative;
+  left: 300px;
+  cursor: pointer;
+  color: gray;
+  
+}
+div .spanBtn:hover{
+  color: black;
+}
+
+div .writeBtn{
+  position: relative;
+  top: 50px;
+}
