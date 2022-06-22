@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React,{useState} from 'react';
+import { Router, useNavigate } from 'react-router-dom';
 import '../App.css';
 
 const LoginForm = () => {
@@ -7,6 +8,8 @@ const LoginForm = () => {
     // 입력값 넣을 변수설정 (db에 있는 컬럼과 같은 이름으로)
     const [id,setId]=useState('');
     const [pass,setPass]=useState('');
+
+    const naVi=useNavigate();
 
     // submit시 호출될 함수
     const onSubmit=(e)=>{
@@ -20,7 +23,7 @@ const LoginForm = () => {
             }else{
                 localStorage.loginOk="yes";                         // 로컬스토리지는 내가 지우지 않는이상 계속 브라우저에 남아있음
                 localStorage.myId=id;
-                window.location.reload();   // 새로고침하는 방법
+                naVi(-1);   // 새로고침하는 방법
             }
         })
     }

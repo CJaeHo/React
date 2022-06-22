@@ -11,8 +11,8 @@ const Main=()=>{
     return (
         <div>
             <h1>배고프시죠?</h1>
-            <img alt="" src={mainimg1} />   
-            <img alt="" src={mainimg2} />            
+            <img alt="" src={mainimg1} className='mainphoto'/>   
+            <img alt="" src={mainimg2} className='mainphoto'/>            
         </div>
     )
 }

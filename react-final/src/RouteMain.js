@@ -3,7 +3,7 @@ import './App.css';
 import {Route, Routes} from "react-router-dom";
 import {About,Info,Main,Menu,Title} from './components';
 import {Login} from "./login";
-import {Board, BoardForm} from './board';
+import {Board, BoardDetail, BoardForm} from './board';
 import {Shop,ShopForm,ShopDetail,ShopUpdateForm} from './shop';
 import {Member,MemberList} from './member';
 import {Memo} from './memo';
@@ -42,8 +42,9 @@ const RouteMain=()=>{
                     <Route path="/test" element={<Test/>}/>
 
                     {/* Board */}
-                    <Route path="/board/list" element={<Board/>}/>
+                    <Route path="/board/list/:currentPage" element={<Board/>}/>
                     <Route path="/board/form" element={<BoardForm/>}/>
+                    <Route path="/board/detail/:num/:currentPage" element={<BoardDetail/>}/>        {/* currentPage가 들어가는 이유는 보던 페이지로 가게하기위함 */}
 
 
                     {/* Member */}
